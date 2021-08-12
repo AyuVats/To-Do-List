@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+
+<body>
+        <div class="typing">
+            <input type="text" class="note" id="todobox" placeholder="enter your task">
+            <button class="addbtn" id="addbutton" onclick="newElement()">ADD</button>
+        </div>
+        <button class="clear" id="clr" onclick="clearbtn()">Clear List</button>
+
+        <ul id="todolist">
+            <li>Hit The Gym</li>
+            <li class="checked">read a book</li>
+            <li>coding</li>
+            <li>gaming</li>
+        </ul>
+        
+</body>
+<script src="todolist.js"></script>
+
+</html>
